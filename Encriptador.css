@@ -1,0 +1,59 @@
+.caja{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+main{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 4em;
+  margin: 0 0 1em;
+  clear: left;
+  color: blue;
+  text-shadow: 1px 2px 2px #0A00FF;
+}
+
+.inputpadron{
+  padding: 40px 25px;
+  margin: 0 auto;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boton{
+  width: 15%;
+  padding: 25px 10px;
+  cursor: pointer;
+  margin: 31px auto;
+  display: inline-block;
+}
+
+form button{
+  display: inline;
+}
+
+.botoncopiar{
+  width: 15%;
+  padding: 25px 10px;
+  cursor: pointer;
+  margin: 31px auto;
+  display: block;
+}
+
+@media screen and (max-width: 480px){
+  .caja{
+    width: auto;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+
+  .boton{
+    width: 30%;
+  }
+}

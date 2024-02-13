@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador y Desencriptador</title>
+        <link rel="stylesheet" href="Encriptador.css">
+        <!--link rel="stylesheet" href="reset.css"-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="Imagen/Logo.png"></h1>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>Encriptador de Texto</h2>
+                <textarea cols="70" rows="10" id="escribirtexto" class="inputpadron" required placeholder="Escribir texto para encriptar y/o Desencriptar" style="width: 50%;height: 100px;"></textarea>
+                <button class="boton" onclick="encrypt()">Encriptar</button>
+                <button class="boton" onclick="decrypt()">Desencriptar</button>
+                <textarea cols="70" rows="10" id="resultado" class="inputpadron" required placeholder="resultado" style="width: 50%;height: 100px;"></textarea>
+                <button class="boton" onclick="copyResult()">Copiar</button>
+                <button class="boton" onclick="clearFields()">Limpiar</button>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
